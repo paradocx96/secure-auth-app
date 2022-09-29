@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 function Homepage(props) {
     return (
@@ -17,10 +18,14 @@ function Homepage(props) {
                     <div className='col-span-2 lg:col-span-2 w-full h-auto lg:p-4'>
                         <div>
                             <div>
-                                <button className='px-11 py-4 mt-4'>Login</button>
+                                <Link href='/login'>
+                                    <button className='px-11 py-4 mt-4'>Login</button>
+                                </Link>
                             </div>
                             <div>
-                                <button className='px-10 py-4 mt-4'>Signup</button>
+                                <Link href='/registration'>
+                                    <button className='px-10 py-4 mt-4'>Signup</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
