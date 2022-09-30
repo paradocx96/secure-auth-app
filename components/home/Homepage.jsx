@@ -8,23 +8,23 @@ function Homepage(props) {
                 <div className='grid lg:grid-cols-5 gap-8'>
 
                     <div className='col-span-2 lg:col-span-3 w-full h-full p-4'>
-                        <div className='lg:p-4 h-full'>
-                            <h1 className='py-4 text-gray-700'>
+                        <div className='h-full'>
+                            <h1 className='text-gray-700'>
                                 <span className='text-[#5651e5]'>Secure Authentication</span> Application
                             </h1>
                         </div>
                     </div>
 
-                    <div className='col-span-2 lg:col-span-2 w-full h-auto lg:p-4'>
+                    <div className='col-span-2 lg:col-span-2 w-full h-auto p-4'>
                         <div>
                             <div>
                                 <Link href='/login'>
-                                    <button className='px-11 py-4 mt-4'>Login</button>
+                                    <button className='max-w-[200px] w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans'>Sign In</button>
                                 </Link>
                             </div>
                             <div>
                                 <Link href='/registration'>
-                                    <button className='px-10 py-4 mt-4'>Signup</button>
+                                    <button className='max-w-[200px] w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans'>Sign Up</button>
                                 </Link>
                             </div>
                         </div>

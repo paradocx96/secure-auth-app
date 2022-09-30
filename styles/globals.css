@@ -8,7 +8,7 @@ html {
 
 @layer base {
   body {
-    @apply bg-[black] text-[#f3f3f3] tracking-wide
+    @apply bg-[#000a12] text-[#f3f3f3] tracking-wide
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -27,7 +27,7 @@ html {
     @apply cursor-pointer
   }
 
-  button {
-    @apply rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
-  }
+  /*button {*/
+  /*  @apply rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white*/
+  /*}*/
 }
