@@ -11,7 +11,8 @@ function NumberAuthenticateForm(props) {
                     <h1 className="text-center text-2xl mb-6 font-bold font-sans uppercase">Authenticate Your
                         Account</h1>
 
-                    <p className='text-center'>Protecting your account is our top priority. Please confirm your account by entering the last
+                    <p className='text-center'>Protecting your account is our top priority. Please confirm your account
+                        by entering the last
                         four digit of your mobile number.</p>
 
                     <div className='flex items-center justify-between py-4'>
@@ -37,15 +38,10 @@ function NumberAuthenticateForm(props) {
                         </div>
                     </div>
 
-                    <button
-                        className="w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans uppercase"
-                        type="submit">Submit
-                    </button>
-
-                    <Link href='/login'>
+                    <Link href='/admin/dashboard'>
                         <button
-                            className="w-full mt-6 mb-3 bg-indigo-100 rounded-lg px-4 py-2 text-lg text-gray-800 tracking-wide font-semibold font-sans uppercase">
-                            Cancel
+                            className="w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans uppercase"
+                            type="submit">Submit
                         </button>
                     </Link>
                 </form>
