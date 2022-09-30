@@ -42,10 +42,12 @@ function LoginForm(props) {
                         </div>
                     </div>
 
-                    <button type="submit"
-                            className="w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans uppercase">Sign
-                        In
-                    </button>
+                    <Link href='/number_authenticate'>
+                        <button type="submit"
+                                className="w-full mt-6 bg-indigo-600 rounded-lg px-4 py-2 text-lg text-white tracking-wide font-semibold font-sans uppercase">Sign
+                            In
+                        </button>
+                    </Link>
 
                     <Link href='/registration'>
                         <button
