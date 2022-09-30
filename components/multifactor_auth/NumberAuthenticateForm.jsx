@@ -17,22 +17,22 @@ function NumberAuthenticateForm(props) {
 
                     <div className='flex items-center justify-between py-4'>
                         <div className='mr-8'>
-                            <input className="w-full bg-gray-100 px-2 py-2 rounded-lg focus:outline-none"
+                            <input className="w-full bg-gray-100 text-black px-2 py-2 rounded-lg focus:outline-none"
                                    type="text"
                                    name="number1" id="number1"/>
                         </div>
                         <div className='mr-8'>
-                            <input className="w-full bg-gray-100 px-2 py-2 rounded-lg focus:outline-none"
+                            <input className="w-full bg-gray-100 text-black px-2 py-2 rounded-lg focus:outline-none"
                                    type="text"
                                    name="number2" id="number2"/>
                         </div>
                         <div className='mr-8'>
-                            <input className="w-full bg-gray-100 px-2 py-2 rounded-lg focus:outline-none"
+                            <input className="w-full bg-gray-100 text-black px-2 py-2 rounded-lg focus:outline-none"
                                    type="text"
                                    name="number3" id="number3"/>
                         </div>
                         <div>
-                            <input className="w-full bg-gray-100 px-2 py-2 rounded-lg focus:outline-none"
+                            <input className="w-full bg-gray-100 text-black px-2 py-2 rounded-lg focus:outline-none"
                                    type="text"
                                    name="number4" id="number4"/>
                         </div>

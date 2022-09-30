@@ -14,7 +14,7 @@ function RegistrationForm(props) {
                         <label className="text-gray-500 font-semibold block my-3 text-md uppercase"
                                htmlFor="username">Username</label>
 
-                        <input className="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
+                        <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
                                type="text"
                                name="username" id="username" placeholder="username"/>
                     </div>
@@ -23,7 +23,7 @@ function RegistrationForm(props) {
                         <label className="text-gray-500 font-semibold block my-3 text-md uppercase"
                                htmlFor="email">Email</label>
 
-                        <input className="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
+                        <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
                                type="text"
                                name="email" id="email" placeholder="@email"/>
                     </div>
@@ -32,7 +32,7 @@ function RegistrationForm(props) {
                         <label className="text-gray-500 font-semibold block my-3 text-md uppercase"
                                htmlFor="username">Mobile Number</label>
 
-                        <input className="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
+                        <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
                                type="number"
                                name="number" id="number" placeholder="07x-xxx-xxxx"/>
                     </div>
@@ -41,8 +41,8 @@ function RegistrationForm(props) {
                         <label className="text-gray-500 font-semibold block my-3 text-md uppercase"
                                htmlFor="password">Password</label>
 
-                        <input className="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
-                               type="text"
+                        <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
+                               type="password"
                                name="password" id="password" placeholder="password"/>
                     </div>
 
@@ -50,8 +50,8 @@ function RegistrationForm(props) {
                         <label className="text-gray-500 font-semibold block my-3 text-md uppercase"
                                htmlFor="confirm">Confirm password</label>
 
-                        <input className="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
-                               type="text"
+                        <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
+                               type="password"
                                name="confirm" id="confirm" placeholder="confirm password"/>
                     </div>
 
