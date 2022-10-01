@@ -4,13 +4,14 @@ import Connection from "./connection.json"
 class UserService {
 
     // User Sign In
-    login(username, password) {
+    login(data) {
         return axios.post(
-            Connection.remoteAddress + "sign-in",
-            {username, password}).then(response => {
+            Connection.remoteAddress + "login", data).then(response => {
+
             if (response.data.accessToken) {
                 localStorage.setItem("user", JSON.stringify(response.data));
             }
+
             return response.data;
         });
     }
@@ -18,7 +19,7 @@ class UserService {
     // User Sign Up
     register(user) {
         return axios.post(
-            Connection.remoteAddress + "sign-up", user
+            Connection.remoteAddress + "register", user
         );
     }
 
