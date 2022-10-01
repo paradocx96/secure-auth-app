@@ -41,7 +41,7 @@ function LoginForm(props) {
                         redirect()
                     },
                     error => {
-                        const userMessage = "Username or password incorrect!";
+                        const userMessage = "Username or Password Incorrect!";
                         const resMessage = (error.response && error.response.data.message && error.response.data) || userMessage || error.message || error.toString();
 
                         setLoading(false);
@@ -71,7 +71,7 @@ function LoginForm(props) {
                                name="username"
                                id="username"
                                placeholder="username"
-                               onChange={onChangeUsername}/>
+                               onChange={onChangeUsername} required/>
                     </div>
 
                     <div>
@@ -79,11 +79,11 @@ function LoginForm(props) {
                                htmlFor="password">Password</label>
 
                         <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
-                               type="text"
+                               type="password"
                                name="password"
                                id="password"
                                placeholder="password"
-                               onChange={onChangePassword}/>
+                               onChange={onChangePassword} required/>
                     </div>
 
                     <div className="flex items-center justify-between pt-4">
