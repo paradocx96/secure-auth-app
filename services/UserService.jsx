@@ -6,7 +6,7 @@ class UserService {
     // User Sign In
     login(data) {
         return axios.post(
-            Connection.remoteAddress + "sign-in", data).then(response => {
+            Connection.remoteAddress + "login", data).then(response => {
 
             if (response.data.accessToken) {
                 localStorage.setItem("user", JSON.stringify(response.data));
@@ -19,7 +19,7 @@ class UserService {
     // User Sign Up
     register(user) {
         return axios.post(
-            Connection.remoteAddress + "sign-up", user
+            Connection.remoteAddress + "register", user
         );
     }
 
