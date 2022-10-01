@@ -1,0 +1,4 @@
+{
+  "localAddress": "http://localhost:8080/api/auth/",
+  "remoteAddress" : "https://secure-auth-api-paradocx96.herokuapp.com/api/auth/"
+}

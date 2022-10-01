@@ -13,7 +13,7 @@ function LoginForm(props) {
                         <label className="text-gray-500 font-semibold block my-3 text-md uppercase"
                                htmlFor="username">Username</label>
 
-                        <input className="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
+                        <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
                                type="text"
                                name="username" id="username" placeholder="username"/>
                     </div>
@@ -22,7 +22,7 @@ function LoginForm(props) {
                         <label className="text-gray-500 font-semibold block my-3 text-md uppercase"
                                htmlFor="password">Password</label>
 
-                        <input className="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
+                        <input className="w-full bg-gray-100 text-black px-4 py-2 rounded-lg focus:outline-none"
                                type="text"
                                name="password" id="password" placeholder="password"/>
                     </div>
