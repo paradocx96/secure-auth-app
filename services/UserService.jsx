@@ -1,5 +1,6 @@
 import axios from "axios";
 import Connection from "./connection.json"
+import config from "tailwindcss/defaultConfig";
 
 class UserService {
 
@@ -20,6 +21,13 @@ class UserService {
     register(user) {
         return axios.post(
             Connection.remoteAddress + "register", user
+        );
+    }
+
+    // Get All Users
+    getAllUsers(config) {
+        return axios.get(
+            Connection.remoteAddress + "users",config
         );
     }
 
